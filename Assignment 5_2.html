@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>WEB TECH ASSIGNMENT 5.2</title>		 
+</head>
+<body bgcolor="greenyellow">
+     <h1 style="background-color:black; color:greenyellow; text-align:center;">CUSTOMER SIGN-UP</h1> 
+	 <form action="insertcusttable.php" method="POST">
+	     <label style="font-size:25px;">Enter Your Name :</label>
+         <input type="text" id="fname" name="fname" size="30" placeholder="First name" autofocus autocomplete="off"><br><br>
+		 <label style="font-size:25px;">Enter Your Last Name :</label>
+         <input type="text" id="lname" name="lname" size="30" placeholder="Surname" autocomplete="off"><br><br>
+         <label style="font-size:25px;">Enter Your College Name :</label>
+         <input type="text" id="cname" name="cname" size="40" placeholder="College name" autocomplete="off"><br><br>
+		 <label style="font-size:25px;">Department :</label>
+         <input type="text" id="bname" name="bname" value="COMP" size="5" readonly><br><br>
+		 <label style="font-size:25px;">Course :</label>
+         <input type="text" id="cour" name="course" value="Engineering" size="10" disabled><br><br>
+		 <label style="font-size:25px;">Mobile number :</label>
+         <input type="text" id="mo" name="mobile" size="10" placeholder="number" autocomplete="off"><br><br>
+         
+		 <br><label style="font-size:25px;">Select Your Gender :</label>
+         <input type="radio" id="m" name="gender" value="MALE">Male
+         <input type="radio" id="f" name="gender" value="FEMALE">Female
+		 <input type="radio" id="o" name="gender" value="OTHERS">Others<br><br>
+     
+         <br><label style="font-size:25px;">Select A Langauge Which You Can Understand:</label><br>
+         <input type="checkbox" id="e" name="lang" value="ENGLISH">English<br>
+         <input type="checkbox" id="h" name="lang" value="HINDI">Hindi<br>
+         <input type="checkbox" id="m" name="lang" value="MARATHI">Marathi<br>
+         <input type="checkbox" id="s" name="lang" value="SANSKRIT">Sanskrit<br>
+         <input type="checkbox" id="k" name="lang" value="KONKANI">Konkani<br><br>
+		 
+		 <br><label style="font-size:25px;">Select Your Country :</label>
+		 <select id="cntry" name="cntry">
+		    <option value=""></option>
+			<option value="AUSTRALIA">Australia</option>
+			<option value="INDIA">India</option>
+		    <option value="ENGLAND">England</option>
+		    <option value="GERMANY">Germany</option>
+		    <option value="BRAZIL">Brazil</option><br>
+		 </select>
+         
+		 <br><br><br><label style="font-size:25px;">Email :</label>
+		 <input type="text" id="em" name="email" autocomplete="off"><br>
+       
+	     <br><br><label style="font-size:25px;">Enter Your Password :</label>
+		 <input type="password" id="pwd" name="pwd" ><br><br>
+		 
+         <br><label style="font-size:25px;">Date of Birth :</label>
+         <input type="date" id="dob" name="birthday"><br><br>
+ 
+         <br><label style="font-size:25px;">Select Your Favourite Color :</label>
+		 <input type="color" id="favcolor" name="favcolor"><br><br>
+		 
+		 <br><label style="font-size:25px;">Select A File :</label>
+		 <input type="file" id="myfile" name="files" ><br><br>
+       
+         <br><label style="font-size:25px;">Select User ID(between 2 to 8) :</label>
+		 <input type="number" id="credits" name="credits" min="2" max="8"><br><br>
+       
+         <br><label style="font-size:25px;">Select Range(between 10 to 35) :</label>
+		 <input type="range" id="rnge" name="inp" min="10" max="35" step="5"><br><br>
+
+        <br><input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+  </form>
+</body>
+</html>

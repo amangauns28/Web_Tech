@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Insert Page</title>
+</head>
+<body>
+  <h2 style="text-align:center;">INSERT PAGE</h2>
+  <form action= "insertpage.php" method="GET">
+    <label>Select Mobile company</label>
+	<select name="company">
+       <option value=""></option>
+       <option value="REALME">Realme</option>
+	   <option value="SAMSUNG">Samsung</option>
+       <option value="MOTOROLA">Motorola</option>
+     </select>
+     <br><br>
+     <br><label>Enter Mobile-ID</label>
+	 <input type="text" name="id">
+     
+	 <br><br>
+     <label>Select RAM</label><br>
+	 <input type="radio" name="ram" value="4GB">4GB<br>
+	 <input type="radio" name="ram" value="6GB">6GB<br>
+	 <input type="radio" name="ram" value="8GB">8GB<br>
+	 <input type="radio" name="ram" value="12GB">12GB<br>
+
+     <br><label>Enter Color</label>
+	 <input type="text" name="color"> <br>
+     <br>
+     <label>Processor</label><br>
+     <input type="radio" name="processor" value="SNAPDRAGON">Snapdragon<br>
+	 <input type="radio" name="processor" value="MEDIATEK">Mediatek<br>
+
+     <br><label>Enter Price</label>
+     <input type="text" name="price"><br>
+    
+     <br><br><input type="submit"> 
+   </form>
+</body>
+</html>
